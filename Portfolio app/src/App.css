@@ -1,0 +1,91 @@
+/* General Styles */
+body,
+.app-container {
+  background-color: #003049;
+  color: #eae2b7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+header {
+  background-color: #003049;
+  border-bottom: 2px solid #f77f00; /* Accent with orange */
+  padding: 1em 0;
+}
+
+/* Navigation Styling */
+.ui.menu {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.ui.menu .item {
+  color: #eae2b7 !important;
+}
+
+.ui.menu .active.item {
+  background-color: #fcbf49 !important; /* Yellow for active nav */
+  color: #003049 !important;
+  font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #003049;
+  border-top: 1px solid #f77f00; /* Accent with orange */
+  padding: 1em 0;
+  text-align: center;
+}
+
+/* Card Styling for Projects Component */
+.ui.cards .card {
+  background-color: #003049;
+  color: #eae2b7;
+  border: 1px solid #f77f00;
+}
+
+.ui.cards .card .header,
+.ui.cards .card .meta,
+.ui.cards .card .description {
+  color: #eae2b7;
+}
+
+/* Link Styling */
+a {
+  color: #d62828; /* Red for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f77f00; /* Orange on hover */
+  text-decoration: underline;
+}
+
+/* Additional Accent for Buttons or Highlights */
+.button, .ui.button {
+  background-color: #d62828 !important; /* Red for buttons */
+  color: #eae2b7 !important;
+  border: none !important;
+}
+
+.button:hover, .ui.button:hover {
+  background-color: #f77f00 !important; /* Orange on hover */
+}
+
+/* Optional: Styling for forms or inputs */
+input,
+textarea {
+  background-color: #eae2b7;
+  color: #003049;
+  border: 1px solid #f77f00;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #d62828;
+}
